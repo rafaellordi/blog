@@ -28,6 +28,6 @@ class User extends Authenticatable
     ];
 
     public function comentario(){
-        return $this->hasMany(Comentario: :class);
+        return $this->hasMany(Comentario:: class);
     }
 }
